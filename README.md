@@ -1,19 +1,14 @@
 # AudioCrypt
 
 Audio encryption with a password using rail fence cipher
+
 Available format: .wav
 
 ### Example
 
-<p>Encrypted audio:</p>
-<audio controls>
-  <source src="example/audio-e.wav" type="audio/wav">
-</audio>
+[Encrypted audio](https://github.com/ilyakotsar/AudioCrypt/blob/main/example/audio-e.wav)
 
-<p>Decrypted audio:</p>
-<audio controls>
-  <source src="example/audio-e-d.wav" type="audio/wav">
-</audio>
+[Decrypted audio](https://github.com/ilyakotsar/AudioCrypt/blob/main/example/audio-e-d.wav)
 
 Password: 3iHMbWZjgVAgDvMFoe0b
 
