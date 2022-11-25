@@ -19,7 +19,7 @@ class AudioCrypt():
     def encrypt(self, filename):
         new_filename = self.new_filename('e', filename)
         if new_filename is None:
-            print('Error')
+            print(f'Error: file {new_filename} already exists')
         else:
             try:
                 start = datetime.now()
@@ -39,7 +39,7 @@ class AudioCrypt():
     def decrypt(self, filename):
         new_filename = self.new_filename('d', filename)
         if new_filename is None:
-            print('Error')
+            print(f'Error: file {new_filename} already exists')
         else:
             try:
                 start = datetime.now()
