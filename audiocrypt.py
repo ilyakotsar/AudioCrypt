@@ -35,7 +35,6 @@ class AudioCrypt():
                 print('Time:', datetime.now() - start)
             except FileNotFoundError as error:
                 print(error)
-                return
 
     def decrypt(self, filename):
         new_filename = self.new_filename('d', filename)
@@ -56,7 +55,6 @@ class AudioCrypt():
                 print('Time:', datetime.now() - start)
             except FileNotFoundError as error:
                 print(error)
-                return
 
     @staticmethod
     def get_datalist(data):
